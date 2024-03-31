@@ -17,3 +17,7 @@
 - Para levantar a aplicação execute no terminal
 - **ng serve --o**
 - Abra seu navegador e digite **http://localhost:4200** para acessar a aplicação.
+
+- Para levantar o servidor json da aplicação acesse a pasta backend e execute no terminal
+- **npm start**
+
