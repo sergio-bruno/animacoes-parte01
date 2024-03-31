@@ -2,8 +2,8 @@
 # Preparando o Ambiente
 
 # Pré-requisitos
-- Node v16.14.2
-- Angular CLI 14.0 (**npm install -g @angular/cli@14.0.0**)
+- Node v18.12.1
+- Angular CLI 15.1.1 (**npm install -g @angular/cli@15.1.1**)
 
 - Nota caso precise remover uma versão do Angular
 - **npm uninstall -g @angular/cli**
@@ -17,5 +17,3 @@
 - Para levantar a aplicação execute no terminal
 - **ng serve --o**
 - Abra seu navegador e digite **http://localhost:4200** para acessar a aplicação.
-
-
