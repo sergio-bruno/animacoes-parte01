@@ -16,7 +16,6 @@ export const highlightedStateTrigger = trigger('highlightedState', [
   ])
 ])
 
-
 export const shownStateTrigger = trigger('shownState', [
   transition(':enter', [
     style({
@@ -29,6 +28,14 @@ export const shownStateTrigger = trigger('shownState', [
   transition(':leave', [
     animate(3000, style({
       opacity: 0
+    }))
+  ])
+])
+
+export const checkButtonTrigger = trigger('checkButton', [
+  transition('* => checked', [
+    animate('400ms ease-in', style({
+      transform: 'scale(0.4)'
     }))
   ])
 ])

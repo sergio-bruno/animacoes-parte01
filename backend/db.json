@@ -45,7 +45,7 @@
     {
       "id": 8,
       "descricao": "dsdsdsdsds",
-      "statusFinalizado": false,
+      "statusFinalizado": true,
       "categoria": "Trabalho",
       "prioridade": "Normal"
     }
