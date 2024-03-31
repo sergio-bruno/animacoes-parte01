@@ -34,6 +34,13 @@
       "statusFinalizado": false,
       "categoria": "Estudos",
       "prioridade": "Alta"
+    },
+    {
+      "id": 7,
+      "descricao": "teste sergio",
+      "statusFinalizado": true,
+      "categoria": "Trabalho",
+      "prioridade": "Alta"
     }
   ]
 }
