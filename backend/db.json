@@ -25,7 +25,7 @@
       "id": 5,
       "descricao": "Trocar lâmpada",
       "categoria": "Casa",
-      "statusFinalizado": false,
+      "statusFinalizado": true,
       "prioridade": "Alta"
     },
     {
