@@ -22,22 +22,13 @@ export const shownStateTrigger = trigger('shownState', [
     style({
       opacity: 0
     }),
-    animate(300, style({
+    animate(3000, style({
       opacity: 1
     }))
   ]),
   transition(':leave', [
-    animate(300, style({
+    animate(3000, style({
       opacity: 0
-    }))
-  ])
-])
-
-
-export const checkButtonTrigger = trigger('checkButton', [
-  transition('* => checked', [
-    animate('400ms ease-in', style({
-      transform: 'scale(0.4)'
     }))
   ])
 ])
